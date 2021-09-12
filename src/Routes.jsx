@@ -35,12 +35,8 @@ export const HomeRoutes = (props) => {
 
 	return (
 		<Switch>
-			{
-				<>
-					<Route path={"/" + partner + "/leads"} component={ Leads } />
-					<Redirect to={"/" + partner + "/leads"} />
-				</>
-			}
+			<Route path={"/" + partner + "/leads"} component={ Leads } />
+			<Redirect to={"/" + partner + "/leads"} />
 		</Switch>
 	);
 }

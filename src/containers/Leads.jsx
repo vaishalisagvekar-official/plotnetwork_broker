@@ -26,7 +26,7 @@ class Leads extends Component {
 
         this.getLead(0);
         this.setData();
-        
+
     }
 
     setData = () => {
@@ -45,12 +45,12 @@ class Leads extends Component {
     }
 
     onAddHandler = () => {
-        sidePanelData.fields.forEach((key, index) => {
-            if(sidePanelData.fields[index].id == "date"){
-                sidePanelData.fields[index].value = moment().format('DD-MM-YYYY');
+        sidePanelData.fields.forEach((field, index) => {
+            if(field.id == "date"){
+                field.value = moment().format('DD-MM-YYYY');
             } else {
-                sidePanelData.fields[index].value = "";
-                sidePanelData.fields[index].disabled = false;
+                field.value = field.defaultValue;
+                field.disabled = false;
             }
         });
         sidePanelData.action = "CREATE";

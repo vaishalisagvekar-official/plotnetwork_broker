@@ -9,7 +9,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": true
+            "disabled": true,
+            "defaultValue": "function(moment){ moment().format('DD-MM-YYYY')}()"
         },
         {
             "id": "fullName",
@@ -18,7 +19,8 @@
             "value": "",
             "placeholder": "Sachin Nalawade",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "dob",
@@ -27,7 +29,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "mobileNumber",
@@ -36,7 +39,8 @@
             "value": "",
             "placeholder": "8888888888",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "emailId",
@@ -45,7 +49,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "brokerName",
@@ -56,7 +61,8 @@
             "placeholder": "Select",
             "hidden": false,
             "disabled": false,
-            "required" : true
+            "required" : true,
+            "defaultValue": ""
         },
         {
             "id": "salesManagerName",
@@ -67,7 +73,8 @@
             "placeholder": "Select",
             "hidden": false,
             "disabled": false,
-            "required" : true
+            "required" : true,
+            "defaultValue": ""
         },
         {
             "id": "message",
@@ -76,7 +83,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "virtualMeetTime",
@@ -85,7 +93,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "configuration",
@@ -99,7 +108,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "budget",
@@ -108,7 +118,8 @@
             "value": "",
             "placeholder": "",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "preference",
@@ -121,7 +132,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "purchasePurpose",
@@ -135,7 +147,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "occupation",
@@ -151,7 +164,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": ""
         },
         {
             "id": "leadSource",
@@ -177,7 +191,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": "Web"
         },
         {
             "id": "status",
@@ -194,7 +209,8 @@
             "value": "",
             "placeholder": "Select",
             "hidden": false,
-            "disabled": false
+            "disabled": false,
+            "defaultValue": "OPEN"
         }
     ],
     "disabledFieldsOnEdit": ["salesManagerName", "brokerName", "virtualMeetTime"]
