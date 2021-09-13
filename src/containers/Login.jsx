@@ -91,6 +91,22 @@ class Login extends Component {
             console.log('Error found : ', error);
         });
     }
+
+    olderBrokerLogin = () => {   // create broker auth records of older 
+        let params = {
+            filter: {}
+        };
+
+        axios({
+            method: 'post',
+            url: getAPIs().broker,
+            params: params
+        }).then((response) => {
+            console.log("broker users ",response);
+        }).catch((error)=>{
+            console.log('Error found : ', error);
+        });
+    }
 }
 
 export default withRouter(Login)
