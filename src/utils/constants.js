@@ -9,6 +9,7 @@ export function getAPIs(){
         'salesmanager': baseURL + 'salesmanager',
         'lead': baseURL + 'lead',
         'leadexport': baseURL + 'leadexport',
+        'older_broker_auth': baseURL + 'older_Broker_Login',
         'baseURL': baseURL
     }
 }
